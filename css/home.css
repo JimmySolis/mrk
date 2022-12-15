@@ -1,0 +1,106 @@
+html{
+    background-color: rgb(241, 241, 241);
+}
+
+body{
+   overflow-x: hidden;
+   margin: 64px;
+   padding: 16px;
+}
+
+header{
+   position:relative;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 16px;
+}
+
+.logo{
+    width: 125px;
+}
+
+.bottomLineNav{
+    border-bottom: 1px black solid;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navLinks{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-family:'Italiana', serif;
+}
+
+main{
+    padding-top: 8px;
+}
+
+.mainSection{
+    border: 1px solid black;
+    padding-top: 48px;
+    padding-left: 184px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.columnPic1{
+   
+}
+
+.columnPic2{
+   
+}
+
+.columnPic3{
+    
+}
+
+.img{
+    padding: 16px;
+}
+
+
+.sectionHeader{
+    display: flex;
+    justify-content: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.footerSection{
+    padding-top: 16px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.socialLogo{
+    width: 50px;
+}
+
+
+@media (max-width: 428px) {
+body{
+    overflow-x: hidden;
+    margin: 48px;
+    padding: 8px;
+ }
+
+ .navLinks{
+    font-size: 24px;
+}
+
+.bottomLineNav{
+    border-bottom: 1px black solid;
+}
+
+.mainSection{
+    border: 1px solid black;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 1fr 
+}
+
+}
