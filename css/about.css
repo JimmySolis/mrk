@@ -1,0 +1,37 @@
+.mrkHead{
+    width: 350px;
+    border-radius: 25%;
+}
+
+.aboutSection{
+    margin: 32px;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns:  1fr 2fr;
+}
+
+@media (max-width: 428px) {
+    .mrkHead{
+        width: 250px;
+        border-radius: 25%;
+    }
+    
+    .aboutSection{
+        margin: 24px;
+        margin-left: 40px;
+        display: block;
+    }
+
+    .aboutText{
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .aboutSection{
+        margin: 32px;
+        margin-left: 0px;
+        display: block;
+    }
+}
